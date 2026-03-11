@@ -25,3 +25,38 @@ body{
     margin-left:220px;
     padding:20px;
 }
+.content h1{
+    color: rgb(244, 127, 255);
+    text-decoration: underline;
+}
+.content p{
+    color: #5b345e;
+}
+.form{
+   margin-left:120px;
+    margin-bottom:10px;
+    
+}
+.Ftitle{
+    margin-left:220px;
+    padding:20px;
+}
+.Ftitle h2{
+    color: #462c50;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  
+}
+input{
+    padding:4px;
+}
+.buttonS:hover{
+     background-color:#5b345e;
+     color: bisque;
+}
+.buttonS{
+    width: 100px;
+    height: 30px;
+}
