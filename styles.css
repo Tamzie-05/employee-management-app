@@ -8,7 +8,7 @@ body{
     top:0;
     width:220px;
     height:100%;
-    background-color:#462c50;
+    background-color:#000000ed;
     padding-top:20px;
 }
 
@@ -19,30 +19,39 @@ body{
     text-decoration:none;
 }
 .sidebar a:hover{
-    background-color:#5b345e;
+    background-color:gray;
 }
 .content{
-    margin-left:220px;
-    padding:20px;
+    margin-left:380px;
+    padding:60px;
 }
 .content h1{
-    color: rgb(244, 127, 255);
-    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.829);
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px gray;
 }
 .content p{
-    color: #5b345e;
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
 }
 .form{
-   margin-left:120px;
+   margin-left:230px;
     margin-bottom:10px;
+    font-size: 15px;
+    font-weight: bold;
     
 }
 .Ftitle{
-    margin-left:220px;
+    margin-left:500px;
     padding:20px;
+     font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px gray;
 }
 .Ftitle h2{
-    color: #462c50;
+    color: red;
 }
 label {
   display: inline-block;
@@ -51,12 +60,29 @@ label {
 }
 input{
     padding:4px;
+     width: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
+
 .buttonS:hover{
-     background-color:#5b345e;
+     background-color:rgb(128, 128, 128);
      color: bisque;
 }
 .buttonS{
     width: 100px;
     height: 30px;
 }
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url("images/backgroundq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
