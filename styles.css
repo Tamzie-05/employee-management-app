@@ -58,13 +58,22 @@ label {
   width: 90px;
   
 }
-input{
-    padding:4px;
-     width: 150px;
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type = "date"],
+input[type="password"] {
+    padding: 4px;
+    width: 210px;
+    height: 20px;
     margin-top: 5px;
     border-radius: 5px;
+    font-size: large;
 }
-
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
 .buttonS:hover{
      background-color:rgb(128, 128, 128);
      color: bisque;
@@ -72,6 +81,7 @@ input{
 .buttonS{
     width: 100px;
     height: 30px;
+    background-color: whitesmoke;
 }
 html, body{
     height: 100%;
