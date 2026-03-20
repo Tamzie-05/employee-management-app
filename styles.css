@@ -93,6 +93,23 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+.table{
+    margin-left:420px;
+    
+}
+.view h2{
+     margin-left:500px;
+    padding:10px;
+     font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px gray;
+    color: red;
+    margin-top: 40px;
+}
+.Details, .Edit, .Delete {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 
 
