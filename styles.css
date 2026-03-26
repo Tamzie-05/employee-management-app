@@ -108,8 +108,41 @@ body{
 }
 .Details, .Edit, .Delete {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 50px;
+    width:0px;
+    
 }
-
-
+.details{
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #3b82c4;
+    border-radius: 5px;
+    width: 50px;
+}
+.edit{
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color:  #E6E013;
+    border-radius: 5px;
+    width: 50px;
+}
+.delete{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#fd1818;
+    width:50px;
+}
+.details:hover{
+    background-color:#3b92c4 ;
+}
+.edit:hover{
+    background-color: #ffff00;
+}
+.delete:hover{
+    background-color:#e10000 ;
+}
 
