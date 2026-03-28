@@ -3,35 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" type="text/css" href="styles.css" >
+    <link rel="stylesheet" href="styles.css">
     <title>Employee Management System</title>
 </head>
 <body>
-    <div class  = "sidebar">
+
+<div class="sidebar">
     <a href="index.html">Home</a>
     <a href="new-contact.html">New Contacts</a>
     <a href="view-contacts.html">View all Contacts</a>
 </div>
+
 <div class="view">
     <h2>View details of a new contact application</h2>
 </div>
-    <div class="table">
-       <table width="" border="1" ><tr>
-        <th width="50">No.</th>
-         <th width="200">Name</th>
-          <th width="200">Email</th>
-           <th width="150">Department</th>
-            <th width="190">Actions</th></tr>
-            
+
+<div class="table">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Department</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
 
             <tr>
                 <td>1</td>
                 <td>Andrew Kasi</td>
                 <td>ankasi@gmail.com</td>
                 <td>Human Resource</td>
-               <div class="Details"> <td><button id="details" class="details">Details</button></div>
-               <div class="Edit"> <button class="edit" id="edit">Edit</button></div>
-            <div class="Delete"><button class="delete" id="delete" >Delete</button></td></div>
+                <td>
+                    <div class="actions">
+                        <button class="details">Details</button>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </td>
             </tr>
 
             <tr>
@@ -39,9 +51,13 @@
                 <td>Tamar Ndemo</td>
                 <td>tamar@gmail.com</td>
                 <td>IT</td>
-               <div class="Details"> <td><button id="details" class="details">Details</button></div>
-               <div class="Edit"> <button class="edit" id="edit">Edit</button></div>
-            <div class="Delete"><button class="delete" id="delete" >Delete</button></td></div>
+                <td>
+                    <div class="actions">
+                        <button class="details">Details</button>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </td>
             </tr>
 
             <tr>
@@ -49,9 +65,13 @@
                 <td>Claire Kamau</td>
                 <td>ckamau@gmail.com</td>
                 <td>Accounting</td>
-               <div class="Details"> <td><button id="details" class="details">Details</button></div>
-               <div class="Edit"> <button class="edit" id="edit">Edit</button></div>
-            <div class="Delete"><button class="delete" id="delete" >Delete</button></td></div>
+                <td>
+                    <div class="actions">
+                        <button class="details">Details</button>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </td>
             </tr>
 
             <tr>
@@ -59,9 +79,13 @@
                 <td>James Kirui</td>
                 <td>kjames@gmail.com</td>
                 <td>Finance</td>
-               <div class="Details"> <td><button id="details" class="details">Details</button></div>
-               <div class="Edit"> <button class="edit" id="edit">Edit</button></div>
-            <div class="Delete"><button class="delete" id="delete" >Delete</button></td></div>
+                <td>
+                    <div class="actions">
+                        <button class="details">Details</button>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </td>
             </tr>
 
             <tr>
@@ -69,12 +93,20 @@
                 <td>Stephanie Chiku</td>
                 <td>chikusteph@gmail.com</td>
                 <td>Marketing</td>
-               <div class="Details"> <td><button id="details" class="details">Details</button></div>
-               <div class="Edit"> <button class="edit" id="edit">Edit</button></div>
-            <div class="Delete"><button class="delete" id="delete" >Delete</button></td></div>
-              </tr>
-       </table>
-    </div>
-    <script src="main.js"></script>
+                <td>
+                    <div class="actions">
+                        <button class="details">Details</button>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<script src="main.js"></script>
+
 </body>
 </html>
